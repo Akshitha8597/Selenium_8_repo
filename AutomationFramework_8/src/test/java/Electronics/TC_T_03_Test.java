@@ -16,6 +16,7 @@ import objectrepository.HomePage;
 
 @Listeners(ListenerUtility.class)
 public class TC_T_03_Test extends BaseClass {
+	//Changes to appear in Github
 	public void clickOnElectronics() throws EncryptedDocumentException, IOException {
 		ExtentTest test = extReport.createTest("clickOnElectronics");
 		hp = new HomePage(driver);
